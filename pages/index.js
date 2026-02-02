@@ -99,7 +99,7 @@ export default function Home() {
             <div className="text-center mb-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Your Results</h2>
               <p className="text-gray-600">
-                You answered "Yes" to <span className="font-bold text-blue-600">{yesCount}</span> out of {questions.length} questions
+                You answered Yes to <span className="font-bold text-blue-600">{yesCount}</span> out of {questions.length} questions
               </p>
             </div>
 
@@ -107,7 +107,7 @@ export default function Home() {
               {yesCount >= 4 ? (
                 <div>
                   <p className="text-gray-700 mb-4">
-                    If you answered "Yes" to four or more questions, you are probably in trouble with alcohol. 
+                    If you answered Yes to four or more questions, you are probably in trouble with alcohol. 
                     Many people have found that talking with others who have faced similar challenges can be helpful.
                   </p>
                   <p className="text-gray-700">
@@ -118,11 +118,11 @@ export default function Home() {
               ) : yesCount >= 2 ? (
                 <div>
                   <p className="text-gray-700 mb-4">
-                    You answered "Yes" to some of these questions. While this doesn't necessarily mean you have 
+                    You answered Yes to some of these questions. While this does not necessarily mean you have 
                     a drinking problem, it may be worth reflecting on your relationship with alcohol.
                   </p>
                   <p className="text-gray-700">
-                    If you're curious about AA or want to learn more, meetings are open to anyone who wants to stop drinking 
+                    If you are curious about AA or want to learn more, meetings are open to anyone who wants to stop drinking 
                     or is questioning their drinking habits.
                   </p>
                 </div>
@@ -133,7 +133,7 @@ export default function Home() {
                     truly know your relationship with drinking.
                   </p>
                   <p className="text-gray-700">
-                    If you ever feel concerned in the future, or if you're taking this quiz for someone you care about, 
+                    If you ever feel concerned in the future, or if you are taking this quiz for someone you care about, 
                     know that help is always available.
                   </p>
                 </div>
@@ -144,7 +144,7 @@ export default function Home() {
               <h3 className="font-bold text-lg mb-2">Find a Meeting Near You</h3>
               <p className="text-blue-100 text-sm mb-4">
                 The AA Meeting Guide app helps you find AA meetings anywhere in the world. 
-                It's free and available for iOS and Android.
+                It is free and available for iOS and Android.
               </p>
               
                 href="https://www.aa.org/meeting-guide-app"
